@@ -23,7 +23,7 @@ class questionMode1ViewController: UIViewController, UITextFieldDelegate {
     var nowQuestion: Int = 0
     var fetchQuestion: Int = 0
     
-    let questionContentArray = ["test","correct","forecast","uniform","practice","question", "keynote","numbers", "pages","internal"]
+    let questionContentArray = ["q","w","e","r","t","y", "u","i", "o","p"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,7 +69,7 @@ class questionMode1ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldShouldReturn(_ inputTextField: UITextField) -> Bool {
         
-        if inputTextField.text == shuffledQuestionArray[nowQuestion]["word"]{
+        if inputTextField.text == shuffledQuestionArray[nowQuestion]["word"] && inputTextField.text?.count == shuffledQuestionArray[nowQuestion]["word"]?.count{
             if nowQuestion == 9{
                 timer.invalidate()
                 performSegue(withIdentifier: "toResultView1", sender: timeCount)

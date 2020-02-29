@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         if savedata.array(forKey: "ADDWORD") != nil{
             dictioary = savedata.array(forKey: "ADDWORD") as! [Dictionary<String,String>]
         }
-        print(dictioary)
     }
     
     @IBAction func selectQuestionView2(){

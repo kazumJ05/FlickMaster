@@ -16,6 +16,9 @@
 		0152679C2377B08200AF805A /* sharingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152679B2377B08200AF805A /* sharingAppTests.swift */; };
 		015267A72377B08200AF805A /* sharingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015267A62377B08200AF805A /* sharingAppUITests.swift */; };
 		015267C32377DB8800AF805A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 015267C22377DB8800AF805A /* GoogleService-Info.plist */; };
+		0166D2F523D3E99400D40108 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166D2F423D3E99400D40108 /* Post.swift */; };
+		0166D2F823D3ED2000D40108 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166D2F623D3ED2000D40108 /* RankingTableViewCell.swift */; };
+		0166D2F923D3ED2000D40108 /* RankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0166D2F723D3ED2000D40108 /* RankingTableViewCell.xib */; };
 		01BAA644239CD0BB001CA199 /* questionMode1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA643239CD0BB001CA199 /* questionMode1ViewController.swift */; };
 		01BAA646239CD0D1001CA199 /* quedtionMode2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA645239CD0D1001CA199 /* quedtionMode2ViewController.swift */; };
 		01BAA648239CD10B001CA199 /* rankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA647239CD10B001CA199 /* rankingViewController.swift */; };
@@ -26,6 +29,7 @@
 		01BAA652239CD1A6001CA199 /* result2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA651239CD1A6001CA199 /* result2ViewController.swift */; };
 		01BAA655239CD1CA001CA199 /* localTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA653239CD1CA001CA199 /* localTableViewCell.swift */; };
 		01BAA656239CD1CA001CA199 /* localTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BAA654239CD1CA001CA199 /* localTableViewCell.xib */; };
+		01BB866023F91535002D3A92 /* apptitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BB865F23F91535002D3A92 /* apptitle.png */; };
 		8940151DEA9FDB90DE5A7F85 /* Pods_sharingApp_sharingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D17FAE6DDD53E750C0482CD /* Pods_sharingApp_sharingAppUITests.framework */; };
 		A2A091A0B9DE2B29EDA8E6FC /* Pods_sharingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3C4BBF8271E2BE9D521124 /* Pods_sharingApp.framework */; };
 		FC30FD145485B893A9F8A328 /* Pods_sharingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4245D5983B3BD1EBCBB760BE /* Pods_sharingAppTests.framework */; };
@@ -64,6 +68,9 @@
 		015267A62377B08200AF805A /* sharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingAppUITests.swift; sourceTree = "<group>"; };
 		015267A82377B08200AF805A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015267C22377DB8800AF805A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0166D2F423D3E99400D40108 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0166D2F623D3ED2000D40108 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		0166D2F723D3ED2000D40108 /* RankingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankingTableViewCell.xib; sourceTree = "<group>"; };
 		01BAA643239CD0BB001CA199 /* questionMode1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionMode1ViewController.swift; sourceTree = "<group>"; };
 		01BAA645239CD0D1001CA199 /* quedtionMode2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quedtionMode2ViewController.swift; sourceTree = "<group>"; };
 		01BAA647239CD10B001CA199 /* rankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rankingViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +81,7 @@
 		01BAA651239CD1A6001CA199 /* result2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = result2ViewController.swift; sourceTree = "<group>"; };
 		01BAA653239CD1CA001CA199 /* localTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localTableViewCell.swift; sourceTree = "<group>"; };
 		01BAA654239CD1CA001CA199 /* localTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = localTableViewCell.xib; sourceTree = "<group>"; };
+		01BB865F23F91535002D3A92 /* apptitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apptitle.png; sourceTree = "<group>"; };
 		35FE04701BA71887890FDC26 /* Pods-sharingApp-sharingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingApp-sharingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-sharingApp-sharingAppUITests/Pods-sharingApp-sharingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4245D5983B3BD1EBCBB760BE /* Pods_sharingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DA422AB0DE9437ADCD759C /* Pods-sharingApp-sharingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharingApp-sharingAppUITests.release.xcconfig"; path = "Target Support Files/Pods-sharingApp-sharingAppUITests/Pods-sharingApp-sharingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +146,7 @@
 		015267832377B08000AF805A /* sharingApp */ = {
 			isa = PBXGroup;
 			children = (
+				01BB865F23F91535002D3A92 /* apptitle.png */,
 				015267842377B08000AF805A /* AppDelegate.swift */,
 				015267862377B08000AF805A /* SceneDelegate.swift */,
 				0152678A2377B08000AF805A /* Main.storyboard */,
@@ -156,6 +165,9 @@
 				01BAA651239CD1A6001CA199 /* result2ViewController.swift */,
 				01BAA653239CD1CA001CA199 /* localTableViewCell.swift */,
 				01BAA654239CD1CA001CA199 /* localTableViewCell.xib */,
+				0166D2F423D3E99400D40108 /* Post.swift */,
+				0166D2F623D3ED2000D40108 /* RankingTableViewCell.swift */,
+				0166D2F723D3ED2000D40108 /* RankingTableViewCell.xib */,
 			);
 			path = sharingApp;
 			sourceTree = "<group>";
@@ -311,9 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				01BAA656239CD1CA001CA199 /* localTableViewCell.xib in Resources */,
+				01BB866023F91535002D3A92 /* apptitle.png in Resources */,
 				015267912377B08200AF805A /* LaunchScreen.storyboard in Resources */,
 				015267C32377DB8800AF805A /* GoogleService-Info.plist in Resources */,
 				0152678E2377B08200AF805A /* Assets.xcassets in Resources */,
+				0166D2F923D3ED2000D40108 /* RankingTableViewCell.xib in Resources */,
 				0152678C2377B08000AF805A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +460,8 @@
 				01BAA655239CD1CA001CA199 /* localTableViewCell.swift in Sources */,
 				01BAA648239CD10B001CA199 /* rankingViewController.swift in Sources */,
 				01BAA646239CD0D1001CA199 /* quedtionMode2ViewController.swift in Sources */,
+				0166D2F823D3ED2000D40108 /* RankingTableViewCell.swift in Sources */,
+				0166D2F523D3E99400D40108 /* Post.swift in Sources */,
 				01BAA652239CD1A6001CA199 /* result2ViewController.swift in Sources */,
 				01BAA64C239CD148001CA199 /* localTableViewController.swift in Sources */,
 				01BAA64E239CD164001CA199 /* addViewController.swift in Sources */,
